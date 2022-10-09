@@ -1,0 +1,23 @@
+.right-space{
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+
+/* ::-webkit-scrollbar:horizontal {
+background-color: red;
+
+} */
+.section{
+    display: flex;
+}
+.section::-webkit-scrollbar-thumb{
+    background-color:blueviolet;
+    /* rgb(177, 184, 196); */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+::-webkit-scrollbar-button {
+    display:none;
+}
+
